@@ -1,0 +1,59 @@
+[utf-8]
+
+本项目旨在开发一个手工优化Anyview所使用的.font格式的点阵字体.
+由于汉字数量过多,目前仅提供ASCII部分的手工优化.
+其中font格式的已经由Hoxily破解.
+这是从FontMaker.jar使用jad工具反编译得到相关信息.
+font格式如下:
+1. VerifyBytes: byte array
+    129, 97, 110, 121, 118, 105, 101, 119,
+    32, 102, 111, 110, 116
+
+2. TheOne: byte
+    1
+
+3. LengthOfDescriptionString: byte
+
+4. DescriptionString: byte array, encoded in UTF-8
+
+5. LengthOfAuthorString: byte
+
+6. AuthorString: byte array, encoded in UTF-8
+
+7. WidthOfAscii: byte
+
+8. WidthOfChinese: byte
+
+9. Height(Both Ascii and Chinese): byte
+
+10. LengthOfAsciiGlyphData: 4 byte, BigEndian
+
+11. LengthOfChineseGlyphData: 4 byte, BigEndian
+
+12. FlagOfGBKSet: byte, 0 means GB2312 charset; 1 means GBK charset
+
+13. AsciiGlyphData: byte array
+
+14. ChineseGlyphData: byte array
+
+注释:
+每个像素占据一个bit.
+每个符号的点阵数据以行为单位进行存储.因此一共有Height行.当不足8bit时以0填充余下的低位.
+例如$符号的6X12点阵表示成:
+    000000
+    001000
+    011110
+    101010
+    101000
+    011000
+    001100
+    001010
+    101010
+    111100
+    001000
+    000000
+    以字节为单位进行存储时就是(右边补上不足的0):
+    0x00,0x20,0x78,0xa8,0xa0,0x60,0x30,0x28,0xa8,0xf0,0x20,0x00
+
+AsciiGlyphData中的点阵数据按照ascii值从0~254排列.
+ChineseGlyphData中的点阵数据按照GB2312编码或者GBK编码顺序排列.

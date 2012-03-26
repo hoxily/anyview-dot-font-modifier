@@ -1,0 +1,10 @@
+c:\users\hoxily\documents\visual studio 2010\Projects\AnyviewFontModifier\AnyviewFontModifier\bin\Debug\AnyviewFontModifier.exe
+c:\users\hoxily\documents\visual studio 2010\Projects\AnyviewFontModifier\AnyviewFontModifier\bin\Debug\AnyviewFontModifier.pdb
+c:\users\hoxily\documents\visual studio 2010\Projects\AnyviewFontModifier\AnyviewFontModifier\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\hoxily\documents\visual studio 2010\Projects\AnyviewFontModifier\AnyviewFontModifier\obj\x86\Debug\AnyviewFontModifier.FormMain.resources
+c:\users\hoxily\documents\visual studio 2010\Projects\AnyviewFontModifier\AnyviewFontModifier\obj\x86\Debug\AnyviewFontModifier.Properties.Resources.resources
+c:\users\hoxily\documents\visual studio 2010\Projects\AnyviewFontModifier\AnyviewFontModifier\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\hoxily\documents\visual studio 2010\Projects\AnyviewFontModifier\AnyviewFontModifier\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\hoxily\documents\visual studio 2010\Projects\AnyviewFontModifier\AnyviewFontModifier\obj\x86\Debug\AnyviewFontModifier.exe
+c:\users\hoxily\documents\visual studio 2010\Projects\AnyviewFontModifier\AnyviewFontModifier\obj\x86\Debug\AnyviewFontModifier.pdb
+c:\users\hoxily\documents\visual studio 2010\Projects\AnyviewFontModifier\AnyviewFontModifier\obj\x86\Debug\AnyviewFontModifier.AnyviewFontModifier.resources
